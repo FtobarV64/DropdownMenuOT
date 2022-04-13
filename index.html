@@ -23,11 +23,19 @@
     <!-- Creating three div; navigation, userBx and menuToggle -->
     <div class="navigation">
       <div class="userBx">
-          <div class="imgBx">
-              <img src="assets/img/foto.jpg" alt="">
-          </div>
+        <div class="imgBx">
+          <img src="assets/img/foto.jpg" alt="" />
+        </div>
       </div>
       <div class="menuToggle"></div>
     </div>
+    <!-- 10.- Add script on JavaScript in index.html -->
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+            navigation.classList.toggle('active')
+        }
+    </script>
   </body>
 </html>
