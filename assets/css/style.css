@@ -59,6 +59,21 @@ body{
     position: relative;
     width: 60px;
     height: 60px;
-    background: #f00;
+    /* background: #f00; */
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 8.- Set div class and pseudo object ::before; .navigation .menuToggle::before  */
+.navigation .menuToggle::before{
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #555;
+    transform: translateY(-10px);
+    box-shadow: 0 10px #555;
+    transition: 0.5s;
 }
