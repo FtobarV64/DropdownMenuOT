@@ -1,7 +1,13 @@
-/* Set the general characteristics of our page */
+/* 1.- Set the general characteristics of our page */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+}
+
+/* 2.- Set body of html */
+body{
+    min-height: 100vh;
+    background: linear-gradient(45deg, #4e65ff, #92effd);
 }
