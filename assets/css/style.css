@@ -90,8 +90,13 @@ body{
     transition: 0.5s;
 }
 
-/* 11.- Set div class and pseudo object ::before; .navigation .menuToggle::before  */
+/* 11.- Set div class and pseudo object ::before; .navigation.active .menuToggle::before  */
 .navigation.active .menuToggle::before{
     transform: translateY(0px) rotate(45deg);
     box-shadow: 0 0 #555;
+}
+
+/* 12.- Set div class and pseudo object ::after; .navigation.active .menuToggle::after  */
+.navigation.active .menuToggle::after{
+    transform: translateY(0px) rotate(-45deg);
 }
