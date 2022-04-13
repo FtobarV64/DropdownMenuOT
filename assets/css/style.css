@@ -155,7 +155,12 @@ body{
     color: #555;
 }
 
-/* 21.- Set class and object; .menu li a:hover*/
+/* 21.- Set class and object; .menu li a:hover */
 .menu li a:hover{
     color: #4e65ff;
+}
+
+/* 22.- Set class and object; .menu li a ion-icon */
+.menu li a ion-icon{
+    font-size: 1.5em;
 }
