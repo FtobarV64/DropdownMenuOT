@@ -28,5 +28,15 @@ body{
     position: relative;
     width: 60px;
     height: 60px;
-    background: #f00;
+    background: #fff;
+}
+
+/* 5.- Set div class: .navigation .userBx .imgBx */
+.navigation .userBx .imgBx{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 50%;
+    border: 10px solid #fff;
 }
