@@ -143,3 +143,14 @@ body{
 .menu li {
     list-style: none;
 }
+
+/* 20.- Set class and object; .menu li a */
+.menu li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 1em;
+    text-decoration: none;
+    color: #555;
+}
