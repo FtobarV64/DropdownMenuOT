@@ -11,3 +11,14 @@ body{
     min-height: 100vh;
     background: linear-gradient(45deg, #4e65ff, #92effd);
 }
+
+/* 3.- Set div class:navigation  */
+.navigation{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+}
