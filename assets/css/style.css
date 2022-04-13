@@ -77,3 +77,15 @@ body{
     box-shadow: 0 10px #555;
     transition: 0.5s;
 }
+
+/* 9.- Set div class and pseudo object ::after; .navigation .menuToggle::after  */
+.navigation .menuToggle::after{
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 2px;
+    background: #555;
+    transform: translateY(10px);
+    /* box-shadow: 0 10px #555; */
+    transition: 0.5s;
+}
