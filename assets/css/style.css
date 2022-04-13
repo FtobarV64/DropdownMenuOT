@@ -43,12 +43,22 @@ body{
     background: #fff;
     display: flex;
     align-items: center;
-    /* overflow: hidden; */
+    overflow: hidden;
+    transition: 0.5s;
+    transition-delay: 0.5s;
 }
 
 /* 14.- Set div class; .navigation.active .userBx */
 .navigation.active .userBx{
     width: calc(100% - 60px);
+    transition-delay: 0s;
+}
+
+/* 15.- Set div class; .navigation .userBx .username*/
+.navigation .userBx .username{
+    white-space: nowrap;
+    color: #555;
+    font-size: 1.1em;
 }
 /* 5.- Set div class: .navigation .userBx .imgBx */
 .navigation .userBx .imgBx{
