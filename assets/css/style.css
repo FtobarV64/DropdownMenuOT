@@ -41,8 +41,15 @@ body{
     width: 60px;
     height: 60px;
     background: #fff;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
 }
 
+/* 14.- Set div class; .navigation.active .userBx */
+.navigation.active .userBx{
+    width: calc(100% - 60px);
+}
 /* 5.- Set div class: .navigation .userBx .imgBx */
 .navigation .userBx .imgBx{
     position: relative;
