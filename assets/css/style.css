@@ -21,6 +21,8 @@ body{
     height: 60px;
     background: #fff;
     box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* 4.- Set div class:.navigation .userBx  */
@@ -50,4 +52,13 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* 7.- Set div class; .navigation .menuToggle  */
+.navigation .menuToggle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #f00;
+    cursor: pointer;
 }
