@@ -25,6 +25,7 @@ body{
     justify-content: space-between;
     transition: height 0.5s, width 0.5s;
     transition-delay: 0s, 0.75s;
+    overflow: hidden;
 }
 
 /* 13.- Set div class; .navigation.active */
@@ -126,4 +127,14 @@ body{
 /* 12.- Set div class and pseudo object ::after; .navigation.active .menuToggle::after  */
 .navigation.active .menuToggle::after{
     transform: translateY(0px) rotate(-45deg);
+}
+
+/* 17.- Set class; .menu  */
+.menu{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
