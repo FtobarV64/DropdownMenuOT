@@ -22,3 +22,11 @@ body{
     background: #fff;
     box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
 }
+
+/* 4.- Set div class:.navigation .userBx  */
+.navigation .userBx{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #f00;
+}
